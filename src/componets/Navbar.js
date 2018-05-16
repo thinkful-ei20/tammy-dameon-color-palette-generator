@@ -1,5 +1,3 @@
-'use strict'
-
 import React from 'react';
 
 export default function NavBar(){
@@ -7,8 +5,8 @@ export default function NavBar(){
     <nav>
       <ul className="control-menu">
         <li>
-          <a className="restart">
-          restart
+          <a className="restart" href="http://localhost:3000/">
+           restart
           </a>
         </li>
       </ul>

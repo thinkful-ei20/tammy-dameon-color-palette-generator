@@ -2,4 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: peachpuff
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
 }

@@ -1,9 +1,12 @@
 import React from 'react';
-
+import './Color.css';
 export default function Color(props){
+
   const colors = props.colors.map((color,index) => 
-      <li key={index}>
-        <strong>{color}</strong>
+      <li key={index} index={index} 
+        className="color"
+        onClick={() => props.onClick(index)}
+        style={{backgroundColor: color}}>
       </li>
   )
 

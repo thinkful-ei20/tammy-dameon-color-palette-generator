@@ -1,5 +1,11 @@
-color {
-  
-  
+.color {
+  box-sizing: border-box;
+  display: inline-flex;
+  width: 15%; /* Or whatever */ /* Or whatever */
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  padding: 2px;
 
 }
+
